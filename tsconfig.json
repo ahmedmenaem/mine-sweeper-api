@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "target": "es6",
+        "skipLibCheck": true,
+        "strict": true,
+        "baseUrl": "src",
+        "paths": {
+            "@controllers": ["controllers"],
+            "@routes": ["routes"],
+            "@middlewares": ["middlewares"],
+            "@models": ["models"],
+            "@config": ["config"],
+            "@utils": ["utils"],
+        },
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types"
+        ]
+    },
+    
+}
